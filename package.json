@@ -1,0 +1,28 @@
+{
+  "name": "ife-task",
+  "version": "1.0.0",
+  "description": "always bugs",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bug/bug.git"
+  },
+  "keywords": [
+    "bug"
+  ],
+  "author": "bug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bug/bug/issues"
+  },
+  "homepage": "https://github.com/bug/bug",
+  "dependencies": {
+    "fis-parser-less-2.x": "^0.1.4",
+    "fis3-hook-commonjs": "^0.1.14",
+    "fis3-hook-module": "^1.2.2",
+    "mod": "0.0.3"
+  }
+}
