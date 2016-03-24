@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### build
 
 1. `npm install fis3 -g` to install fis3
@@ -12,3 +13,7 @@
 
 1. fis3 release -d ../dist
 2. git push `dist` files to origin
+=======
+# task_1
+任务一：零基础HTML编码
+>>>>>>> e407abae432c04d098eee9c001985144bd31d78a
