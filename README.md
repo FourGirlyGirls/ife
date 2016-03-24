@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### build
 
 1. `npm install fis3 -g` to install fis3
@@ -12,3 +13,6 @@
 
 1. fis3 release -d ../dist
 2. git push `dist` files to origin
+=======
+# task_dev
+>>>>>>> 3b4c985a3ed22780a4f01f74cfb84f25bf1ad588
