@@ -1,0 +1,27 @@
+.center-box {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  background-color: #ccc;
+  overflow: hidden;
+}
+.center-box .half-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #fc0;
+}
+.center-box .top-left {
+  top: -50px;
+  left: -50px;
+}
+.center-box .bottom-right {
+  bottom: -50px;
+  right: -50px;
+}
