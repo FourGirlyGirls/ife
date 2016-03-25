@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+define('task_18/js/util', function(require, exports, module) {
+
+>>>>>>> 0d83d4daee4b459a51efa077e1ca522770cf51dd
 
 function hasClass(element, className) {
     if (element.classList) {
@@ -90,3 +95,9 @@ module.exports = {
     getElementsByClassName: getElementsByClassName,
     delegateEvent: delegateEvent
 }
+<<<<<<< HEAD
+=======
+
+
+});
+>>>>>>> 0d83d4daee4b459a51efa077e1ca522770cf51dd
