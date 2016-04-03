@@ -1,3 +1,14 @@
+### checkout
+`git checkout master`
+
+### develop
+
+write your code and commit it to master branch.
+
+`git add .`
+
+`git commit -m "YOUR_COMMIT_MESSAGE"`
+
 ### build
 
 1. `npm install fis3 -g` to install fis3
@@ -11,7 +22,9 @@
 ### Deploy to GitHub Pages
 
 1. fis3 release -d ../dist
-2. git push `dist` files to origin
+2. `git checkout gh-pages`
+3. `git merge master` and make sure there is **NO** conflict, fix them if any
+2. `git push`
 
 
 # task_1
