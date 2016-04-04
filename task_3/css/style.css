@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+.header {
+  background-color: #222;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+}
+.session {
+  background-color: #fff;
+  margin-left: 200px;
+  margin-right: 120px;
+  position: absolute;
+  top: 0px;
+}
+.slide {
+  background-color: red;
+  width: 120px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
