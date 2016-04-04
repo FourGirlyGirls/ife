@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### build
 
 1. `npm install fis3 -g` to install fis3
