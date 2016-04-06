@@ -22,7 +22,7 @@ git push
 ```
 you need to pull before push in case other pushed the code when you are coding
 
-### Notice: Once you find there are any conflict, which is marked like the following form, please **fix** it and **commit**.
+#### Notice: Once you find there are any conflict, which is marked like the following form, please **fix** it and **commit**.
 ```
  <<<<<<< HEAD
  foo
@@ -34,7 +34,7 @@ What you need to do is remove those punctuations and erroneous code so that it b
 
 ## How to test localy
 
-if you haven't install fis, run the following command, you need to install [Node.js](https://nodejs.org/) first.
+if you haven't install [fis](http://fex-team.github.io/fis3/), run the following command, you need to install [Node.js](https://nodejs.org/) first.
 
 1. `npm install fis3 -g` to install fis3
 2. `npm install` to install dependencies
@@ -53,7 +53,7 @@ Once you are sure that you want to publish, you can run this command.
 3. `git merge master` and make sure there is **NO** conflict, fix them if any
 2. `git push`
 
-### Remember to check if all the pages work corretcly. After you finished the publish, please check out to the master branch.
+#### Remember to check if all the pages work corretcly. After you finished the publish, please check out to the **master** branch.
 
 # task_1
 任务一：零基础HTML编码
