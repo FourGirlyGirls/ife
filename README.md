@@ -45,8 +45,9 @@ Once you are sure that you want to publish, you can run this command.
 2. `git checkout gh-pages`
 3. `git merge master` and make sure there is **NO** conflict, fix them if any
 2. `git push`
+3. `git checkout master`
 
-#### Remember to check if all the pages work corretcly. After you finished the publish, please check out to the **master** branch.
+#### Remember to check if all the pages work corretcly.
 ========================
 
 | Task          | Description   | Status  | Driver  |
