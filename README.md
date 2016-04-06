@@ -1,31 +1,59 @@
-### checkout
+# Enjoy Your Coding Guide 
+
+## Develop Flow
+
+1. update your local file
+
+`git pull`
+
+2. change to master branch
+
 `git checkout master`
 
-### develop
+3. write your code
 
-write your code and commit it to master branch.
+4. commit your changes to the repo
 
-`git add .`
+```
+git add .
+git commit -m "YOUR_COMMIT_MESSAGE"
+git pull
+git push
+```
+you need to pull before push in case other pushed the code when you are coding
 
-`git commit -m "YOUR_COMMIT_MESSAGE"`
+### Notice: Once you find there are any conflict, which is marked like the following form, please **fix** it and **commit**.
+```
+ <<<<<<< HEAD
+ foo
+ =======
+ bar
+ >>>>>>> branch-a
+```
+What you need to do is remove those punctuations and erroneous code so that it become what it should be.
 
-### build
+## How to test localy
+
+if you haven't install fis, run the following command, you need to install [Node.js](https://nodejs.org/) first.
 
 1. `npm install fis3 -g` to install fis3
 2. `npm install` to install dependencies
 
-### run dev
+now you can run on your machine
 
 1. `fis3 server start` start a fis3 server and the post is `8080`
 2. `fis3 release -cw` add a fis3 listener
 
-### Deploy to GitHub Pages
+## Deploy to GitHub Pages
+
+Once you are sure that you want to publish, you can run this command.
 
 1. fis3 release -d ../dist
 2. `git checkout gh-pages`
 3. `git merge master` and make sure there is **NO** conflict, fix them if any
 2. `git push`
 
+### Remember to check if all the pages work corretcly. After you finished the publish, please check out to the master branch.
 
 # task_1
 任务一：零基础HTML编码
