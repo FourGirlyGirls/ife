@@ -4,7 +4,7 @@
 
 1. `git pull` update your local file
 2. `git checkout master` change to master branch
-3. write your code
+3. write your code on a new task or improve on existing tasks
 4. commit your changes to the repo
 
 ```
@@ -13,9 +13,9 @@ git commit -m "YOUR_COMMIT_MESSAGE"
 git pull
 git push
 ```
-you need to pull before push in case other pushed the code when you are coding
+you need to pull before push in case others pushed the code when you are coding
 
-#### Notice: Once you find there are any conflict, which is marked like the following form, please **fix** it and **commit**.
+#### Notice: Once you find there are any conflicts, which are marked in the following form, please **fix** them and **commit**.
 ```
  <<<<<<< HEAD
  foo
@@ -23,9 +23,9 @@ you need to pull before push in case other pushed the code when you are coding
  bar
  >>>>>>> branch-a
 ```
-What you need to do is remove those punctuations and erroneous code so that it become what it should be.
+What you need to do is to remove those punctuations and erroneous code so that it becomes what it should be.
 
-## How to test localy
+## How to test locally
 
 if you haven't install [fis](http://fex-team.github.io/fis3/), run the following command, you need to install [Node.js](https://nodejs.org/) first.
 
@@ -43,11 +43,11 @@ Once you are sure that you want to publish, you can run this command.
 
 1. fis3 release -d ../dist
 2. `git checkout gh-pages`
-3. `git merge master` and make sure there is **NO** conflict, fix them if any
+3. `git merge master` and make sure there are **NO** conflicts, fix them if any
 2. `git push`
 3. `git checkout master`
 
-#### Remember to check if all the pages work corretcly.
+#### Remember to check if all the pages work correctly.
 ========================
 
 | Task          | Description   | Status  | Driver  |
