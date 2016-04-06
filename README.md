@@ -2,16 +2,9 @@
 
 ## Develop Flow
 
-1. update your local file
-
-`git pull`
-
-2. change to master branch
-
-`git checkout master`
-
+1. `git pull` update your local file
+2. `git checkout master` change to master branch
 3. write your code
-
 4. commit your changes to the repo
 
 ```
